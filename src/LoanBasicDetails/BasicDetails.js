@@ -15,8 +15,7 @@ import { inWords } from '../utils/numToWord.js';
 // import {numWords} from 'num-words';
 
 export class BasicDetails extends LocalizeMixin(LitElement) {
-  static get styles() {
-    return css`
+  static  styles =  css`
       :host {
         display: block;
         padding: 25px;
@@ -108,7 +107,7 @@ export class BasicDetails extends LocalizeMixin(LitElement) {
         color: black;
       }
     `;
-  }
+  
 
   constructor() {
     super();
